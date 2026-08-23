@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.ico.ico" type="image/x-icon">
+    <title>Teste</title>
+</head>
+<body>
+    <h1>Tipos de formatações diferentes</h1><hr>
+    <H2>Código-Fonte</H2>
+    <p>Serve para deixar o espaçamento entre letras iguais, ou seja, o texto fica com a formatação de código-fonte, como se fosse um código de programação.
+        Exmeplo: <code>console.log("Olá, mundo!");</code>
+        
+     Quando o código tem mais de uma linha pode ser usado a tag &lt;pre&gt; para manter a foermataçao original do texto, como no exemplo abaixo:
+        <pre>
+            <code>
+                function saudacao() {
+                    console.log("Olá, mundo!");
+                }
+            </code> </pre>
+    </p>
+<h2>Citações</h2>
+<p>Como o próprio nome diz, a tag &lt;q&gt; serve para indicar uma citação, ela é ideal para usar em pequenas citações, sua principal característica é as aspas, como no exemplo atrás
+    como diz o Geremias: <q>O importante é a saúde, o resto é besteira.</q>
+</p>
+<h2>Citações completas</h2>
+<p>Para citações mais longas, pode-se usar a tag &lt;blockquote&gt;, que adiciona uma indentação e formatação específica para destacar o trecho citado, como no exemplo abaixo:
+    <blockquote>
+        <p>"O importante é a saúde, o resto é besteira."</p>
+        <cite>Geremias</cite>
+    </blockquote>
+    Podemos também usar a extensão da tag cite para indicar a fonte da citação, como no exemplo abaixo:
+    <blockquote cite="https://www.exemplo.com/citacao">
+        <p>"O importante é a saúde, o resto é besteira."</p>
+        <cite>Geremias</cite>
+    </blockquote>
+</p>
+<h2>Abreviações</h2>
+<p>A tag &lt;abbr&gt; serve para indicar uma abreviação e pode ser usada para fornecer a explicação completa da abreviação quando o usuário passa o mouse sobre ela, como no exemplo abaixo:
+    <abbr title="World Wide Web Consortium">W3C</abbr>
+</p>
+<h2><bdo dir="rtl">De trás para frente</bdo></h2>
+<p>A tag &lt;bdo&gt; (bidirectional override) é usada para controlar a direção do texto, permitindo que ele seja exibido da direita para a esquerda (RTL) ou da esquerda para a direita (LTR), como no exemplo abaixo:
+    <bdo dir="rtl">Este texto será exibido da direita para a esquerda.</bdo>
+</body>
+</html

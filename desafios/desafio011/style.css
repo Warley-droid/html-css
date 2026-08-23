@@ -1,0 +1,152 @@
+#body{
+    background-color: #3DDC84;
+}
+#tituloprincipal{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+#titulosecundario{
+    font-size: 1.2em;
+    text-align: center;
+    color:white;
+    font-weight: initial;
+}
+header{
+background-image:linear-gradient(to bottom, #3DDC84, #2FA866, #063D1E);
+}
+
+.menus{
+    color:white;
+    text-decoration: none;
+    font-size:1.1em;   
+}
+
+    .menus:hover{
+        text-decoration: underline;
+        color:#3DDC84;
+    }
+
+    @font-face {
+        font-family: android;
+        src: url(fontes/idroid.otf) format("opentype");
+        format-weight: normal;
+        font-style: normal;
+    }
+    
+    .titulo1main{
+        font-family: android, Arial, Helvetica, sans-serif;
+        font-size: 2em;
+        color: #2FA866;
+    }
+
+    .linkspalavras{
+        color: #008138;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1em;
+    }
+
+    .linkspalavras:hover{
+        color:#063D1E;
+        text-decoration: underline;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #main{
+        background-color: white;
+        min-width: 400px;
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    #main2{
+        background-color: white;
+        min-width: 400px;
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .paragrafos{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        font-size: 1.1em;
+        text-indent: 30px;
+    }
+
+    .titulo2main{
+        font-family: android, Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        color: #2FA866;
+        background-image: linear-gradient(to right, #C5EBD6, white);
+    }
+
+    .picture{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagenscenter{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .asidevideo{
+        background-color: #063D1E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 400px;
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .aside001{
+        background-color: #C5EBD6;
+        border-radius: 0px 0px 10px 10px;
+        padding: 0.1px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .aside002{
+        background-color: #2FA866;
+        border-radius: 10px 10px 0px 0px;
+        padding: 0.1px;
+        text-indent: 10px;
+    }
+
+    .lista-android{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        column-count: 2;
+        column-gap: 20px;
+        list-style-position: inside;
+        list-style-type: none;
+    }
+
+    .link-lista{
+        color:black;
+    }
+
+
+    .link-lista:visited{
+        color:#063D1E;
+        text-decoration: underline;
+    }
+
+    .link-lista:hover{
+        color:#3DDC84;
+        text-decoration: underline;
+    }
+
+
